@@ -47,7 +47,7 @@
     CKArrayControllerSections sections;
     sections.insert(0);
     [self.dataSource enqueueChangeset:{sections, {}}
-                      constrainedSize:[self.sizeRangeProvider sizeRangeForBoundingSize:CGSizeMake(self.feedCollectionView.bounds.size.width, self.feedCollectionView.bounds.size.height / 2.0f)]];
+                      constrainedSize:[self.sizeRangeProvider sizeRangeForBoundingSize:self.feedCollectionView.bounds.size]];
     
     [self.viewModelObserver startObserving];
 }
