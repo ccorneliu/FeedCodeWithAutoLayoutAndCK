@@ -34,7 +34,6 @@
     self.sizeRangeProvider = [CKComponentFlexibleSizeRangeProvider providerWithFlexibility:CKComponentSizeRangeFlexibleHeight];
     
     //create component kit data source - ck_create_data_source
-    CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     self.dataSourceContext = @{@"componentWidth":[NSNumber numberWithDouble:self.feedCollectionView.bounds.size.width],
                                @"reportAction":NSStringFromSelector(@selector(topBarActionButtonTapped:forItemWithData:))};
     self.dataSource = [[CKCollectionViewDataSource alloc] initWithCollectionView:self.feedCollectionView
