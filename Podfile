@@ -3,4 +3,4 @@ platform :ios, '7.1'
 
 inhibit_all_warnings!
 
-pod 'ComponentKit', '~> 0.10'
+pod 'ComponentKit', '~> 0.14'

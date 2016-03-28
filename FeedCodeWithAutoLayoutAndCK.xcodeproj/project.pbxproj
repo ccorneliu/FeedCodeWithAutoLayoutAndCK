@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		675CEDD73BD3F88B8B8317E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7CAD60ADF7E6550BF6FEFC /* libPods.a */; };
-		A1C181401BC295E100D6AF15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181131BC295E100D6AF15 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		A1C181411BC295E100D6AF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C181141BC295E100D6AF15 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		A1C181421BC295E100D6AF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C181151BC295E100D6AF15 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		A1C181431BC295E100D6AF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C181171BC295E100D6AF15 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		A1C181441BC295E100D6AF15 /* DCCAvatarImageComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1811A1BC295E100D6AF15 /* DCCAvatarImageComponent.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C181451BC295E100D6AF15 /* DCCButtonWithCountNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1811C1BC295E100D6AF15 /* DCCButtonWithCountNumber.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C181461BC295E100D6AF15 /* DCCFeedItemComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1811F1BC295E100D6AF15 /* DCCFeedItemComponent.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C181471BC295E100D6AF15 /* DCCFeedItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181211BC295E100D6AF15 /* DCCFeedItemTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		A1C181481BC295E100D6AF15 /* DCCFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181231BC295E100D6AF15 /* DCCFeedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		A1C181491BC295E100D6AF15 /* DCCFeedViewModelObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181261BC295E100D6AF15 /* DCCFeedViewModelObserver.m */; settings = {ASSET_TAGS = (); }; };
-		A1C1814A1BC295E100D6AF15 /* DCCFooterPostActionsComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C181281BC295E100D6AF15 /* DCCFooterPostActionsComponent.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C1814B1BC295E100D6AF15 /* DCCHeaderComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1812A1BC295E100D6AF15 /* DCCHeaderComponent.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C1814C1BC295E100D6AF15 /* DCCHeaderTitleAndSubtitleComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1812C1BC295E100D6AF15 /* DCCHeaderTitleAndSubtitleComponent.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C1814D1BC295E100D6AF15 /* DCCImageWithPossibleOverlayText.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1812E1BC295E100D6AF15 /* DCCImageWithPossibleOverlayText.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C1814E1BC295E100D6AF15 /* DCCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181301BC295E100D6AF15 /* DCCLabel.m */; settings = {ASSET_TAGS = (); }; };
-		A1C1814F1BC295E100D6AF15 /* DCCPerformantFeedViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C181331BC295E100D6AF15 /* DCCPerformantFeedViewController.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C181501BC295E100D6AF15 /* DCCNewsFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181351BC295E100D6AF15 /* DCCNewsFeedItem.m */; settings = {ASSET_TAGS = (); }; };
-		A1C181511BC295E100D6AF15 /* DCCNewsFeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181371BC295E100D6AF15 /* DCCNewsFeedViewModel.m */; settings = {ASSET_TAGS = (); }; };
-		A1C181521BC295E100D6AF15 /* DCCTextComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C181391BC295E100D6AF15 /* DCCTextComponent.mm */; settings = {ASSET_TAGS = (); }; };
-		A1C181541BC295E100D6AF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C1813B1BC295E100D6AF15 /* main.m */; settings = {ASSET_TAGS = (); }; };
-		A1C181551BC295E100D6AF15 /* News.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1C1813C1BC295E100D6AF15 /* News.plist */; settings = {ASSET_TAGS = (); }; };
-		A1C181561BC295E100D6AF15 /* NSObject+DCCObservationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C1813E1BC295E100D6AF15 /* NSObject+DCCObservationHelper.m */; settings = {ASSET_TAGS = (); }; };
+		A1C181401BC295E100D6AF15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181131BC295E100D6AF15 /* AppDelegate.m */; };
+		A1C181411BC295E100D6AF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C181141BC295E100D6AF15 /* Assets.xcassets */; };
+		A1C181421BC295E100D6AF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C181151BC295E100D6AF15 /* LaunchScreen.storyboard */; };
+		A1C181431BC295E100D6AF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C181171BC295E100D6AF15 /* Main.storyboard */; };
+		A1C181441BC295E100D6AF15 /* DCCAvatarImageComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1811A1BC295E100D6AF15 /* DCCAvatarImageComponent.mm */; };
+		A1C181451BC295E100D6AF15 /* DCCButtonWithCountNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1811C1BC295E100D6AF15 /* DCCButtonWithCountNumber.mm */; };
+		A1C181461BC295E100D6AF15 /* DCCFeedItemComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1811F1BC295E100D6AF15 /* DCCFeedItemComponent.mm */; };
+		A1C181471BC295E100D6AF15 /* DCCFeedItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181211BC295E100D6AF15 /* DCCFeedItemTableViewCell.m */; };
+		A1C181481BC295E100D6AF15 /* DCCFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181231BC295E100D6AF15 /* DCCFeedViewController.m */; };
+		A1C181491BC295E100D6AF15 /* DCCFeedViewModelObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181261BC295E100D6AF15 /* DCCFeedViewModelObserver.m */; };
+		A1C1814A1BC295E100D6AF15 /* DCCFooterPostActionsComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C181281BC295E100D6AF15 /* DCCFooterPostActionsComponent.mm */; };
+		A1C1814B1BC295E100D6AF15 /* DCCHeaderComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1812A1BC295E100D6AF15 /* DCCHeaderComponent.mm */; };
+		A1C1814C1BC295E100D6AF15 /* DCCHeaderTitleAndSubtitleComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1812C1BC295E100D6AF15 /* DCCHeaderTitleAndSubtitleComponent.mm */; };
+		A1C1814D1BC295E100D6AF15 /* DCCImageWithPossibleOverlayText.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C1812E1BC295E100D6AF15 /* DCCImageWithPossibleOverlayText.mm */; };
+		A1C1814E1BC295E100D6AF15 /* DCCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181301BC295E100D6AF15 /* DCCLabel.m */; };
+		A1C1814F1BC295E100D6AF15 /* DCCPerformantFeedViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C181331BC295E100D6AF15 /* DCCPerformantFeedViewController.mm */; };
+		A1C181501BC295E100D6AF15 /* DCCNewsFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181351BC295E100D6AF15 /* DCCNewsFeedItem.m */; };
+		A1C181511BC295E100D6AF15 /* DCCNewsFeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C181371BC295E100D6AF15 /* DCCNewsFeedViewModel.m */; };
+		A1C181521BC295E100D6AF15 /* DCCTextComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C181391BC295E100D6AF15 /* DCCTextComponent.mm */; };
+		A1C181541BC295E100D6AF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C1813B1BC295E100D6AF15 /* main.m */; };
+		A1C181551BC295E100D6AF15 /* News.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1C1813C1BC295E100D6AF15 /* News.plist */; };
+		A1C181561BC295E100D6AF15 /* NSObject+DCCObservationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C1813E1BC295E100D6AF15 /* NSObject+DCCObservationHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -265,6 +265,7 @@
 				A1DC048A1BB88D3700961346 /* Frameworks */,
 				A1DC048B1BB88D3700961346 /* Resources */,
 				55FDDF84C93A5FFE8FFB9767 /* Copy Pods Resources */,
+				4406FEE06E79222B2A9A30DB /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,7 +287,6 @@
 				TargetAttributes = {
 					A1DC048C1BB88D3700961346 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 4MQZ3WUVKM;
 					};
 				};
 			};
@@ -323,6 +323,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4406FEE06E79222B2A9A30DB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4D1CB73EE661BB9564957AE0 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,14 +505,14 @@
 			baseConfigurationReference = 3045097E8B1A3C64AE5F4448 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Corneliu Chitanu (7CA952C4W3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Support Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "FeedCodeWithAutoLayoutAndCK/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dolfn.FeedCodeWithAutoLayoutAndCK;
 				PRODUCT_NAME = FeedCodeWithAutoLayoutAndCK;
-				PROVISIONING_PROFILE = "052d3e12-3041-49bd-8ff5-6300bf2e6662";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -506,14 +521,14 @@
 			baseConfigurationReference = 645F9246A54EE45076417133 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Corneliu Chitanu (7CA952C4W3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Support Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "FeedCodeWithAutoLayoutAndCK/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dolfn.FeedCodeWithAutoLayoutAndCK;
 				PRODUCT_NAME = FeedCodeWithAutoLayoutAndCK;
-				PROVISIONING_PROFILE = "052d3e12-3041-49bd-8ff5-6300bf2e6662";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

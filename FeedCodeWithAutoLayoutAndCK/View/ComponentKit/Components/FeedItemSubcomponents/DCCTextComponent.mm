@@ -25,7 +25,8 @@
                    }
                    viewAttributes:{
                    }
-                   accessibilityContext:{}]}
+                   accessibilityContext:{}
+                   size:{}]}
              }]];
 }
 

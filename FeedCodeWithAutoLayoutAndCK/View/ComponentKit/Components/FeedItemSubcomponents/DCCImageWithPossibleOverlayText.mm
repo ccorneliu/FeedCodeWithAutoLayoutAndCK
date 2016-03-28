@@ -37,7 +37,7 @@
         
         NSAttributedString *whiteOverlayTitle = [[NSAttributedString alloc] initWithString:@"Featured" attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont boldSystemFontOfSize:30.0f]}];
         CKComponent *overlayComponent = [CKCenterLayoutComponent
-                                         newWithCenteringOptions:{CKCenterLayoutComponentCenteringXY}
+                                         newWithCenteringOptions:CKCenterLayoutComponentCenteringXY
                                          sizingOptions:{}
                                          child:
                                          [CKStackLayoutComponent
@@ -62,6 +62,7 @@
                                                                   {@selector(setBackgroundColor:), [UIColor clearColor]}
                                                               }
                                                               accessibilityContext:{}
+                                                              size:{}
                                                               ]],
                                               }
                                           }]

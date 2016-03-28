@@ -83,7 +83,7 @@
 
 -(void)configureFeedLabel:(UILabel *)feedButtonLabelToConfigure withElementName:(NSString *)elementName numberOfElements:(NSUInteger)numberOfElements {
     NSString *pluralIfNecessary = numberOfElements == 1 ? @"" : @"s";
-    NSString *buttonTitle = [NSString stringWithFormat:@"%lu %@%@", numberOfElements, elementName, pluralIfNecessary];
+    NSString *buttonTitle = [NSString stringWithFormat:@"%lu %@%@", (unsigned long)numberOfElements, elementName, pluralIfNecessary];
     feedButtonLabelToConfigure.text = buttonTitle;
 }
 

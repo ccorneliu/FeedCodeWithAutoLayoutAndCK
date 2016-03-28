@@ -15,13 +15,13 @@
 
 +(instancetype)newWithItemData:(id<DCCFeedItem>)feedItemData context:(id)context {
     UIImage *likeIcon = [UIImage imageNamed:@"likeIcon"];
-    NSString *likeTitle = [NSString stringWithFormat:@"%lu Likes", [feedItemData peopleNamesWhoLikedThePost].count];
+    NSString *likeTitle = [NSString stringWithFormat:@"%lu Likes", (unsigned long)[feedItemData peopleNamesWhoLikedThePost].count];
     
     UIImage *commentIcon = [UIImage imageNamed:@"commentIcon"];
-    NSString *commentTitle = [NSString stringWithFormat:@"%lu Comments", [feedItemData numberOfComments]];
+    NSString *commentTitle = [NSString stringWithFormat:@"%lu Comments", (unsigned long)[feedItemData numberOfComments]];
     
     UIImage *shareIcon = [UIImage imageNamed:@"shareIcon"];
-    NSString *shareTitle = [NSString stringWithFormat:@"%lu Shares", [feedItemData numberOfShares]];
+    NSString *shareTitle = [NSString stringWithFormat:@"%lu Shares", (unsigned long)[feedItemData numberOfShares]];
     
     CKComponent *likeComponent = [DCCButtonWithCountNumber newWithImage:likeIcon title:likeTitle];
     CKComponent *commentComponent = [CKStackLayoutComponent

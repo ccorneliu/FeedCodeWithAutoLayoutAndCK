@@ -42,7 +42,8 @@
                           .attributedString = [[NSAttributedString alloc] initWithString:buttonTitle attributes:@{NSFontAttributeName:[UIFont preferredFontForTextStyle:UIFontTextStyleFootnote], NSForegroundColorAttributeName:[UIColor blackColor]}]
                       }
                       viewAttributes:{}
-                      accessibilityContext:{}],
+                      accessibilityContext:{}
+                      size:{}],
                      .spacingBefore = -7.0f,
                      .alignSelf = CKStackLayoutAlignSelfCenter
                  }

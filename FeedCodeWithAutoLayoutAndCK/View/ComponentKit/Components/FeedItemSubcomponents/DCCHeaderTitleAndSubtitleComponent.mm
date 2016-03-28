@@ -32,7 +32,8 @@
                       viewAttributes:{
                           {@selector(setBackgroundColor:), [UIColor clearColor]}
                       }
-                      accessibilityContext:{}]
+                      accessibilityContext:{}
+                      size:{}]
                  },
                  {
                      [CKTextComponent
@@ -42,7 +43,8 @@
                       viewAttributes:{
                           {@selector(setBackgroundColor:), [UIColor clearColor]}
                       }
-                      accessibilityContext:{}]
+                      accessibilityContext:{}
+                      size:{}]
                  }
              }]];
 }
